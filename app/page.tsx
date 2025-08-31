@@ -63,9 +63,6 @@ export default function Page() {
       <main className="mx-auto w-full max-w-6xl px-4 py-8 text-black">
         <header className="mb-6 flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
           <h1 className={cn("text-pretty text-2xl font-semibold")}>Real-time Expense Management</h1>
-          <div className="flex items-center gap-3">
-            <Badge className="bg-[#FF6B10] hover:bg-[#FF6B10] text-white">Live AI Compliance</Badge>
-          </div>
         </header>
 
         {/* Upload */}

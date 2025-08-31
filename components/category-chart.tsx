@@ -28,7 +28,7 @@ export function CategoryChart({
                     />
                 </PieChart>
             </ResponsiveContainer>
-            <div className="mt-3 grid grid-cols-2 gap-2 text-sm">
+            {/* <div className="mt-3 grid grid-cols-2 gap-2 text-sm">
                 {sorted.map((d, i) => (
                     <div key={d.name} className="flex items-center gap-2">
                         <span
@@ -40,7 +40,7 @@ export function CategoryChart({
                         <span className="ml-auto font-medium">${d.value.toFixed(2)}</span>
                     </div>
                 ))}
-            </div>
+            </div> */}
         </div>
     )
 }
