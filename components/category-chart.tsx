@@ -23,6 +23,7 @@ export function CategoryChart({
                         ))}
                     </Pie>
                     <Tooltip
+                        wrapperClassName="bg-red-500"
                         wrapperStyle={{ border: "1px solid rgba(0,0,0,0.1)" }}
                         formatter={(value: any, name: any) => [`$${Number(value).toFixed(2)}`, name]}
                     />

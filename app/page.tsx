@@ -175,11 +175,6 @@ export default function Page() {
             </CardContent>
           </Card>
         </section>
-
-        <footer className="text-sm text-[#6B7280]">
-          Highlight color: <span className="font-medium text-[#FF6B10]">#FF6B10</span>. Set GEMINI_API_KEY in Project
-          Settings to enable AI compliance.
-        </footer>
       </main>
     </QueryClientProvider>
   )
